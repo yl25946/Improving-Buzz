@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Improving Buzz",
+    "version": "2.6",
+    "description": "Fixes buzz's \"SSO Not Found\" error",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "https://wen.geniussis.com/PublicWelcome.aspx?service=*",
+        "*://*.google.com/",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "background": {
+        "scripts": [
+            "redirect.js"
+        ]
+    }
+}
